@@ -18,11 +18,22 @@ $(document).ready(function() {
     	$(".dev").hide();
     	$(".design").fadeIn();
     });
+    resizeDiv();
 
     smoothScroll(".to-about", "#begin-about");
     smoothScroll(".to-projects", "#begin-projects");
     smoothScroll(".to-contact", "#begin-contact");
 });
+
+window.onresize = function(event) {
+    resizeDiv();
+}
+
+function resizeDiv() {
+    vpw = $(window).width();
+    vph = $(window).height();
+    $("#landing").css({"height": vph + "px"});
+}
 
 function smoothScroll(trigger, endScroll) {
 	$(trigger).click(function() {
