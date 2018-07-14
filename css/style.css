@@ -35,7 +35,7 @@
 	}
 
 	#logo {
-		display: inline-block;
+		display: none;
 	}
 
 	#burger-li {
@@ -307,18 +307,16 @@
 	display: inline-block;
 	padding: 0em 0em 1em 0em;
 	margin: 0em 1em 0em 1em;
-	width: 8em;
+	width: 7em;
 	font-family: Raleway;
 	font-weight: bold;
 	font-size: 16px;
 }
 
-@media (min-width: 768px) {
-	.projects-tab:hover {
-		border-bottom: 6px solid #fd4242;
-		color: #fd4242;
-		cursor: pointer;
-	}
+.projects-tab:hover {
+	border-bottom: 6px solid #fd4242;
+	color: #fd4242;
+	cursor: pointer;
 }
 
 #projects{
