@@ -1,9 +1,5 @@
 $(document).ready(function() {
 
-	$('#nav-icon').click(function(){
-		$(this).toggleClass('open');
-	});
-
     makeActive(".dev-tab", "#development-select");
     makeActive(".design-tab", "#design-select");
 
@@ -18,6 +14,7 @@ $(document).ready(function() {
     	$(".dev").hide();
     	$(".design").fadeIn();
     });
+    
     resizeDiv();
 
     smoothScroll(".to-about", "#begin-about");

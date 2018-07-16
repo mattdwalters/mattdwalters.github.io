@@ -221,7 +221,6 @@
 
 .down {
     transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
 }
 
 .up {
@@ -473,6 +472,7 @@ figure.effect:hover p {
 #logo-bottom-container {
 	text-align:center;
 }
+
 #logo-bottom-container #logo-bottom{
 	display:inline-block;
 	text-align: initial;
