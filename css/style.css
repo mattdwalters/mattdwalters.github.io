@@ -204,7 +204,7 @@
 	color: #fd4242;
 }
 
-.inline-link:hover {
+.inline-link:hover, .inline-link:active{
 	font-weight: bold;
 	text-decoration: none;
 	color: #fd4242;
