@@ -6,6 +6,7 @@
 	top: 50%;
 	transform: translate(-50%, -50%);
 }
+
 #logo {
 	height: 75px;
 	width: 75px;
@@ -188,8 +189,7 @@
 }
 .welcome-text {
 	font-size: 25px;
-	line-height: 40px;
-	font-size: 26px;
+	line-height: 30px;
 	font-family: Montserrat;
 }
 
