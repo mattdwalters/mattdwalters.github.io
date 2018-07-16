@@ -7,6 +7,12 @@
 	transform: translate(-50%, -50%);
 }
 
+@media (max-width: 768px) {
+	.welcome-text {
+		font-size: 18px !important;
+	}
+}
+
 #logo {
 	height: 75px;
 	width: 75px;
