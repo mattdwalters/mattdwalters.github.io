@@ -11,6 +11,10 @@
 	.welcome-text {
 		font-size: 18px !important;
 	}
+	.landing-container {
+		margin-top: -3em ;
+	}
+
 }
 
 #logo {
