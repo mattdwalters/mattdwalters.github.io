@@ -4,6 +4,8 @@
 	width: 100%;
 	left: 50%;
 	top: 50%;
+	-moz-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
 }
 
@@ -230,10 +232,14 @@
 }
 
 .down {
+	-moz-transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
     transform: rotate(45deg);
 }
 
 .up {
+	-moz-transform: rotate(225deg);
+	-webkit-transform: rotate(225deg);
 	transform: rotate(225deg);
 }
 
@@ -395,11 +401,15 @@ figure.effect h3 {
 	padding-bottom: 20px;
 	opacity: 0;
 	transition: opacity 0.35s, transform 0.35s;
+	-moz-transform: translate3d(0,-100%,0);
+	-webkit-transform: translate3d(0,-100%,0);
 	transform: translate3d(0,-100%,0);
 }
 
 figure.effect:hover h3 {
 	opacity: 1;
+	-moz-transform: translate3d(0,0,0);
+	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
 
@@ -412,10 +422,14 @@ figure.effect h3::after {
 	background: #fff;
 	content: '';
 	transition: transform 0.35s;
+	-moz-transform: translate3d(0,100%,0);
+	-webkit-transform: translate3d(0,100%,0);
 	transform: translate3d(0,100%,0);
 }
 
 figure.effect:hover h3::after {
+	-moz-transform: translate3d(0,0,0);
+	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
 
@@ -423,11 +437,15 @@ figure.effect p {
 	padding-top: 10px;
 	opacity: 0;
 	transition: opacity 0.35s, transform 0.35s;
+	-moz-transform: translate3d(0,100%,0);
+	-webkit-transform: translate3d(0,100%,0);
 	transform: translate3d(0,100%,0);
 }
 
 figure.effect:hover p {
 	opacity: 1;
+	-moz-transform: translate3d(0,0,0);
+	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
 
