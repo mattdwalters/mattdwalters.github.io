@@ -53,8 +53,10 @@ function makeActive(trigger, activate) {
 
 function openNav(trigger) {
     document.getElementById("myNav").style.height = "100%";
+    $("#burger").removeClass("front");
 }
 
 function closeNav(trigger) {
     document.getElementById("myNav").style.height = "0%";
+    $("#burger").addClass("front");
 }
