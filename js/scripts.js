@@ -29,7 +29,9 @@ window.onresize = function(event) {
 function resizeDiv() {
     vpw = $(window).width();
     vph = $(window).height();
-    $("#landing").css({"height": vph + "px"});
+    navh = $("#navbar").height();
+    toth = vph - navh;
+    $("#landing").css({"height": toth + "px"});
 }
 
 function smoothScroll(trigger, endScroll) {
